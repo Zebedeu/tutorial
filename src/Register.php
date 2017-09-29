@@ -20,8 +20,8 @@ class Register {
 	public function __set($name, $value) {
 		return $this->data[$name] = $value;
 	}
+
+	public function getdata(){
+		return $this->data;
+	}
 }
-
-
-$obj = new Register();
-var_dump($ob->nome = "olaa");
